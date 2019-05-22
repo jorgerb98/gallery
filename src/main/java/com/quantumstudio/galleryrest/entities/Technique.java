@@ -1,13 +1,26 @@
 package com.quantumstudio.galleryrest.entities;
 
-import java.util.ArrayList;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import java.util.List;
+import java.util.Set;
 
+@Entity
 public class Technique {
 
+    @Id
+    @GeneratedValue
     private long id;
+
+    @NotNull
+    @Column(unique = true)
     private String name;
-    private ArrayList<Artist> artistList;
-    private ArrayList<Painting> paintingList;
+
+    @ManyToMany(mappedBy = "techniqueSet")
+    private Set<Artist> artistSet;
+
+    @OneToMany
+    private List<Painting> paintingList;
 
     public String getName() {
         return name;
@@ -17,19 +30,19 @@ public class Technique {
         this.name = name;
     }
 
-    public ArrayList<Artist> getArtistList() {
-        return artistList;
+    public Set<Artist> getArtistSet() {
+        return artistSet;
     }
 
-    public void setArtistList(ArrayList<Artist> artistList) {
-        this.artistList = artistList;
+    public void setArtistSet(Set<Artist> artistSet) {
+        this.artistSet = artistSet;
     }
 
-    public ArrayList<Painting> getPaintingList() {
+    public List<Painting> getPaintingList() {
         return paintingList;
     }
 
-    public void setPaintingList(ArrayList<Painting> paintingList) {
+    public void setPaintingList(List<Painting> paintingList) {
         this.paintingList = paintingList;
     }
 
