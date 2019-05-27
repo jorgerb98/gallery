@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb4cb0b9-0b6d-41a8-920a-38bb2d86176b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Band.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/exceptions/DuplicateEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/exceptions/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/VinylRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/VinylService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/VinylServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vinylstore-rest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/GalleryRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/VinylStoreRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Vinyl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Painting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Purchase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Technique.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quantumstudio/galleryrest/GalleryRestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/quantumstudio/vinylstorerest/VinylStoreRestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/GalleryRestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/entities/Artist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/entities/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/entities/Painting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/entities/Purchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantumstudio/galleryrest/entities/Technique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/quantumstudio/galleryrest/GalleryRestApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,86 +63,144 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/VinylService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="480">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Purchase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/ClientModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1586#1587#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/VinylServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/BandService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/BandServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/VinylController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#1754#1755#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/GalleryRestApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/BandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Artist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="680">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/BandModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="680">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,9 +210,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+      <find>group</find>
+      <find>GroupModel</find>
+      <find>ResponseEntity</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>band</replace>
+      <replace>bandModel</replace>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,7 +241,45 @@
         <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Purchase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Artist.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/repositories/TechniqueRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/models/Technique.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/exceptions/DuplicateEntityException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/exceptions/EntityNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/controllers/TechniqueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/services/TechniqueService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/services/impl/TechniqueServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/models/TechniqueModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/components/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/VinylRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/VinylStoreRestApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/GroupRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/GroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/GroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/GroupModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/GroupController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/BandRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/SizeDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/DiscSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/ClientModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/PurchaseModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Vinyl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/VinylModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Purchase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/VinylService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/BandService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/BandController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/VinylServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/BandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/VinylController.java" />
       </list>
     </option>
   </component>
@@ -174,7 +311,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -185,8 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +353,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryrest" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
@@ -226,8 +361,72 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryrest" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gallery-rest" type="b2602c69:ProjectViewProjectNode" />
@@ -255,12 +454,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryrest" type="462c0819:PsiDirectoryNode" />
+              <item name="vinylstorerest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,13 +472,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558569993171" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558967431437" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.quantumstudio.vinylstorerest.entities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.quantumstudio.vinylstorerest.models" />
+      <recent name="com.quantumstudio.vinylstorerest.repositories" />
+      <recent name="com.quantumstudio.vinylstorerest.controllers" />
+      <recent name="com.quantumstudio.vinylstorerest.services.impl" />
+      <recent name="com.quantumstudio.vinylstorerest.services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities" />
     </key>
@@ -294,13 +505,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GalleryRestApplication">
-    <configuration name="GalleryRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantumstudio.galleryrest.GalleryRestApplication" />
-      <module name="gallery-rest" />
+  <component name="RunManager" selected="Application.VinylStoreRestApplication">
+    <configuration name="VinylStoreRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantumstudio.vinylstorerest.VinylStoreRestApplication" />
+      <module name="vinylstore-rest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantumstudio.galleryrest.*" />
+          <option name="PATTERN" value="com.quantumstudio.vinylstorerest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,7 +528,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GalleryRestApplication" />
+        <item itemvalue="Application.VinylStoreRestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558540471654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Por fin..">
+      <created>1558569988055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558569988055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -350,9 +568,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="DB Browser" weight="0.3295699" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.3033049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,22 +578,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5006196" side_tool="true" weight="0.24964234" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info id="DB Browser" order="8" weight="0.3295699" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5304102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35777777" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35777777" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="DB Execution Console" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,11 +611,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Hola que tal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hola que tal" />
+    <MESSAGE value="Por fin.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Por fin.." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -407,72 +625,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Painting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Painting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="647">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/models/Technique.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/exceptions/EntityNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/exceptions/DuplicateEntityException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Purchase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/TechniqueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="260">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Technique.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/TechniqueModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="480">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Technique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/VinylStoreRestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -483,71 +723,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Artist.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Band.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/entities/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/ClientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/GroupRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/BandRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/SizeDisc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/galleryrest/GalleryRestApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/components/DiscSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/repositories/VinylRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Vinyl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/VinylModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/PurchaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/ClientModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/entities/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/VinylService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/BandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/VinylServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/services/impl/BandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/VinylController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/models/BandModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quantumstudio/vinylstorerest/controllers/BandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gallery-rest" />
+        <module name="vinylstore-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gallery-rest" target="1.8" />
+      <module name="vinylstore-rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="gallery-rest" options="-parameters" />
+      <module name="vinylstore-rest" options="-parameters" />
     </option>
   </component>
 </project>
